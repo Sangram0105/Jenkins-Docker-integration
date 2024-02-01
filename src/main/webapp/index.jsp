@@ -1,7 +1,26 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Web Project</title>
+</head>
 <body>
-<h2>Hello World!</h2>
-<p>
-I am Sangram Sankpal</p>
+
+    <h1>Contact Us</h1>
+
+    <form action="/submit" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+
 </body>
 </html>
